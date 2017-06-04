@@ -1,0 +1,217 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+.top {
+	width: 100%;
+	min-width: 1200px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #282828;
+	margin: 0 auto;
+}
+
+.welcome {
+	color: #fff;
+	font-size: 14px;
+	float: left;
+}
+
+.phone {
+	color: #fff;
+	font-size: 14px;
+	float: right;
+}
+
+.top-img {
+	background-size: 100%;
+	background-image: url(../images/首页_02.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-width: 1200px;
+	height: 404px;
+}
+
+.nav {
+	margin: 0 auto;
+	padding: 10px;
+	width: 670px;
+	height: 35px;
+}
+
+.nav ul li {
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 30px;
+	padding: 0 10px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 18px;
+}
+
+.index-img-one {
+	background-size: 100%;
+	background-image: url(../images/林州太行写生基地2_02.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-width: 1200px;
+	height: 620px;
+}
+
+.about-us {
+	width: 1200px;
+	height: 540px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.2)
+}
+
+.about-us>p {
+	font-size: 26px;
+	text-align: center;
+	padding: 20px;
+}
+
+.index-img-two {
+	background-size: 100%;
+	background-image: url(../images/首页_04.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-width: 1200px;
+	height: 270px;
+}
+
+.index-img-three {
+	background-size: 100%;
+	background-image: url(../images/林州太行写生基地2_04.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-width: 1200px;
+	height: 100%;
+	padding-top: 25px;
+}
+
+.index-img-bottom {
+	background-size: 100%;
+	background-image: url(../images/林州太行写生基地2_02.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-width: 1200px;
+	height: 620px;
+}
+
+.scenery {
+	width: 1200px;
+	height: 540px;
+	margin: 0 auto;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-bottom: 25px;
+}
+
+.scenery-wrap {
+	text-align: center;
+}
+
+.scenery-con {
+	color: #FFFFFF;
+	background-color: #FE9B00;
+	width: 250px;
+	height: 280px;
+	float: left;
+	margin-right: 40px;
+}
+
+.scenery-con img {
+	width: 250px;
+	height: 200px;
+}
+
+.scenery-con p {
+	margin-top: 10px
+}
+
+.scenery>p {
+	font-size: 26px;
+	text-align: center;
+	padding: 20px;
+}
+
+.environment {
+	width: 1200px;
+	height: 820px;
+	margin: 0 auto;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-bottom: 25px;
+}
+
+.environment>p {
+	font-size: 26px;
+	text-align: center;
+	padding: 20px;
+}
+
+.environment-div {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.environment-wrap {
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+
+.environment-wrap ul {
+	margin-top: 30px;
+}
+
+.environment-wrap ul li {
+	display: inline;
+	padding-right: 8px;
+}
+
+.environment-wrap ul li>img {
+	width: 250px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.bottom {
+	height: 80px;
+	background-color: #282828;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.bottom>p {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	padding: 3px;
+}
+
+.bottom a {
+	color: #efb722;
+	text-decoration: none;
+	margin-right: 5px;
+}
