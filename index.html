@@ -5,15 +5,16 @@
 		<meta charset="utf-8" />
 		<title>首页</title>
 		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/index_1.css" />
 	</head>
 
-	<body>
+	<body style="min-width: 1400px;">
 		<div class="top">
 			<div class="top-content">
 				<span class="welcome">您好，欢迎光临太行山写生基地</span>
 				<span class="phone">13466599810/15810437940</span>
 			</div>
-					<!--<div style="position: absolute;width: 40px;height: 40px;">
+			<!--<div style="position: absolute;width: 40px;height: 40px;">
 			<div style="width: 40px;height: 40px;position: absolute;top: 200px;right: 20px;">
 				<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_03.png" /></div>
 				<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_06.png" />
@@ -130,19 +131,67 @@
 					<div class="environment-div">田园院落豪华客房内设卫生间，排车辆接送！</div>
 					<div class="environment-div"><span style="color: #EFB722;">优雅、干净、舒适，带给您美的享受</span></div>
 					<div class="environment-wrap">
-						<ul>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
-							<li><img src="images/首页_11.png" /></li>
+						<ul id="effect-6" class="effects clearfix">
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
+							<li class="img"><img src="images/首页_11.png" />
+								<div class="overlay">
+									<a href="#" class="expand">住宿环境</a>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -161,6 +210,41 @@
 				<a href="#">石板岩写生基地</a>
 			</p>
 		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".overlay").css('width','220px');
+				$(".img").css("width","220px");
+				if(Modernizr.touch) {
+					// show the close overlay button
+					$(".close-overlay").removeClass("hidden");
+					// handle the adding of hover class when clicked
+					$(".img").click(function(e) {
+						if(!$(this).hasClass("hover")) {
+							$(this).addClass("hover");
+						}
+					});
+					// handle the closing of the overlay
+					$(".close-overlay").click(function(e) {
+						e.preventDefault();
+						e.stopPropagation();
+						if($(this).closest(".img").hasClass("hover")) {
+							$(this).closest(".img").removeClass("hover");
+						}
+					});
+				} else {
+					// handle the mouseenter functionality
+					$(".img").mouseenter(function() {
+							$(this).addClass("hover");
+						})
+						// handle the mouseleave functionality
+						.mouseleave(function() {
+							$(this).removeClass("hover");
+						});
+				}
+			});
+		</script>
 	</body>
 
 </html>

@@ -86,6 +86,19 @@ ul {
 	border-radius: 4px;
 }
 
+/*.nav-img {
+	float: left;
+	margin-right: 5px !important;
+	margin-top: 8px !important;
+}
+
+.nav-a {
+	color: #FE9B00 !important;
+	display: block;
+	float: left;
+	border-bottom: 2px solid #FE9B00;
+}*/
+
 .nav ul li a {
 	text-decoration: none;
 	color: #000000;
