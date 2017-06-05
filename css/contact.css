@@ -1,0 +1,29 @@
+.content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 960px;
+    height: 450px;
+}
+.contact>p {
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+.contact-c {
+	padding-top: 50px;
+	width: 580px;
+	margin: 0 auto;
+}
+.contact-c>p {
+	font-size: 18px;
+	margin: 20px;
+}
+.text {
+	font-size: 18px;
+}

@@ -1,0 +1,72 @@
+.content {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.ysmj {
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 960px;
+	height: 950px;
+}
+
+.ysmj>p {
+	font-size: 26px;
+	text-align: center;
+	padding: 20px;
+}
+
+.ysmj-c {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.ysmj-c>p {
+	font-size: 18px;
+	margin: 20px;
+}
+
+.text {
+	font-size: 18px;
+}
+
+.rmgz {
+	margin-left: 20px;
+	height: 316px;
+	width: 360px;
+	float: left;
+	border: 1px solid;
+	border-top: 3px solid #FE9B00;
+}
+
+.mj-name {
+	height: 100px;
+}
+
+.mj-name p {
+	padding: 5px;
+}
+
+.mj-name img {
+	float: left;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+.ysmj-wrap {
+	text-align: center;
+}
+
+.ysmj-con {
+	color: #FFFFFF;
+	width: 227px;
+	height: 190px;
+	float: left;
+}
+
+.ysmj-con img {
+	width: 218px;
+	height: 180px;
+}

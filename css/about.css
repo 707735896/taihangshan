@@ -1,0 +1,23 @@
+.content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.about {
+    width: 100%;
+    margin: 0 auto;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+}
+.about>p {
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+.about-c {
+	width: 960px;
+	margin: 0 auto;
+}
+.text {
+	font-size: 18px;
+	text-indent: 2em;
+}

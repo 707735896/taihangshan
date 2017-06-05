@@ -1,0 +1,53 @@
+.content {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.zbfj {
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 960px;
+	height: 950px;
+}
+
+.zbfj>p {
+	font-size: 26px;
+	text-align: center;
+	padding: 20px;
+}
+
+.zbfj-c {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.zbfj-c>p {
+	font-size: 18px;
+	margin: 20px;
+}
+
+.text {
+	font-size: 18px;
+}
+
+.zbfj-wrap {
+	text-align: center;
+}
+
+.zbfj-con {
+	background-color: #FE9B00;
+	width: 293px;
+	height: 331px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.zbfj-con img {
+	width: 293px;
+    height: 288px;
+}
+.zbfj-con p {
+	margin-top: 10px
+}

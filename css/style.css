@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none outside none;
+}
+
+/* .silder-box{width:600px;height:400px;margin:0 auto 0;position:relative;}
+.silder{position:relative;overflow:hidden;width:400px;height:400px;margin:0 auto 0;}
+.silder li{width:400px;height:400px;} */
+
+.silder-box {
+	position: relative;
+	margin: 20px auto;
+}
+
+.silder {
+	margin: 0 auto 0;
+}
+
+.silder li {
+	width: 400px;
+	height: 300px;
+}
+
+.silder li img {
+	width: 100%;
+	height: 100%;
+}
+
+.silder-button {
+	top: 123px;
+	width: 40px;
+	height: 65px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.silder-button.btl {
+	left: -8px;
+	background: url(../images/写生计划_06.png);
+}
+
+.silder-button.btr {
+	right: -8px;
+	background: url(../images/写生计划_09.png);
+}
+
+.silder-box-1 {
+	/*width: 1000px;*/
+}
+
+.silder-box-2 {
+	width: 500px;
+}
+
+.silder-box-2 .silder li {
+	width: 200px;
+	height: 200px;
+}
+
+.silder-box-3 {
+	width: 1000px;
+}
+
+.small-navs {
+	position: absolute;
+}

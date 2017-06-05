@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>写生计划</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/plan.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body style="min-width: 1200px;">
+		<div class="top">
+			<div class="top-content">
+				<span class="welcome">您好，欢迎光临太行山写生基地</span>
+				<span class="phone">13466599810/15810437940</span>
+			</div>
+			<!--<div style="position: absolute;width: 40px;height: 40px;">
+				<div style="width: 40px;height: 40px;position: absolute;top: 200px;right: 20px;">
+					<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_03.png" /></div>
+					<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_06.png" />
+						<span style="position: relative;bottom: 40px;color: #fff;right: 112px;">18550510709</span>
+					</div>
+					<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_08.png" /></li>
+						<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_10.png" /></div>
+					</div>
+				</div>
+			</div>-->
+		</div>
+		<div class="top-img">
+			<img src="images/首页_02.gif" width="100%" />
+		</div>
+		<div class="index-img-one">
+			<img src="images/林州太行写生基地2_02.gif" width="100%" />
+			<div class="content">
+				<div class="nav">
+					<ul>
+						<li>
+							<img src="images/名家作品_13.png" width="30" height="30" style="float: left;margin-right: 5px;" />
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<img src="images/名家作品_15.png" width="30" height="30" style="float: left;margin-right: 5px;" />
+							<a href="about-us.html">关于我们</a>
+						</li>
+						<li>
+							<img src="images/名家作品_17.png" width="30" height="30" style="float: left;margin-right: 5px;" />
+							<a href="plan.html">写生计划</a>
+						</li>
+						<li>
+							<img src="images/名家作品_19.png" width="30" height="30" style="float: left;margin-right: 5px;" />
+							<a href="ss.html">食宿</a>
+						</li>
+						<li>
+							<img src="images/名家作品_21.png" width="30" height="30" style="float: left;margin-right: 5px;" />
+							<a href="zbfj.html">周边风景</a>
+						</li>
+						<li>
+							<img src="images/名家作品_23.png" width="30" height="30" style="float: left;margin-right: 5px;" />
+							<a href="ysmj.html">艺术名家</a>
+						</li>
+						<li>
+							<img src="images/名家作品_25.png" width="30" height="30" style="float: left;margin-right: 5px;" />
+							<a href="contact-us.html">联系我们</a>
+						</li>
+					</ul>
+				</div>
+				<div class="plan">
+					<p>写生计划</p>
+					<div style="margin: 0 auto;width: 80px;height:3px;background: #FE9B00;"></div>
+					<div class="plan-c">
+						<p style="text-indent: 2em;">雄、秀、奇、险、幽、旷的林虑山太行大峡谷自然风光与淳朴的民作浑然一体，吸引了全国各地的院校师生和艺术爱好者前来写生、摄影，大峡谷还被中国文联书画中心命名为创作培训基地</p>
+						<div class='silder-box silder-box-1'>
+							<div class='silder'>
+								<ul>
+									<li>
+										<img src="images/写生计划_03.png">
+									</li>
+									<li>
+										<img src="images/写生计划_03.png">
+									</li>
+									<li>
+										<img src="images/写生计划_03.png">
+									</li>
+									<li>
+										<img src="images/写生计划_03.png">
+									</li>
+									<li>
+										<img src="images/写生计划_03.png">
+									</li>
+									<li>
+										<img src="images/写生计划_03.png">
+									</li>
+									<li>
+										<img src="images/写生计划_03.png">
+									</li>
+								</ul>
+							</div>
+							<div class='silder-button btl'></div>
+							<div class='silder-button btr'></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bottom">
+				<p>版权所有：林州太行写生基地&nbsp;技术支持：太行写生</p>
+				<p>地址：林家高家台村&nbsp;电话：15093915426/13044764330</p>
+				<p>联系人：杨先生&nbsp;友情链接：
+					<a href="#">网程微平台</a>
+					<a href="#">太行山写生基地</a>
+					<a href="#">太行山写生基地宿舍</a>
+					<a href="#">石板岩写生基地</a>
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/mySystem.js"></script>
+		<script>
+			$(function() {
+				//回调函数计数
+				var callbackIndex = 0;
+				$('.silder-box-1').mySilder({
+					width: 400, //容器的宽度 必选参数!!!!!!
+					height: 400, //容器的高度 必选参数!!!!!!
+					auto: true, //是否自动滚动
+					autoTime: 5, //自动滚动时，时间间隙，即多长滚动一次,单位(秒)
+					direction: 'x', //滚动方向,默认X方向
+					autoType: 'left', //滚动方向，auto为true时生效
+					few: 1, //一次滚动几个，默认滚动1张
+					showFew: 2, //显示几个,就不用调css了,默认显示一个
+					clearance: 50, //容器之间的间隙，默认为 0
+					silderMode: 'linear', //滚动方式
+					timeGap: 650, //动画间隙，完成一次动画需要多长时间，默认700ms
+					buttonPre: '.silder-button.btl', //上一个，按钮
+					buttonNext: '.silder-button.btr', //下一个，按钮
+					jz: true, //点击时，是否等待动画完成
+					runEnd: function() { //回调函数
+						callbackIndex++;
+						$('.cj em').text(callbackIndex);
+					}
+				});
+
+				$('.silder-box-2').mySilder({
+					width: 200, //容器的宽度 必选参数!!!!!!
+					height: 200, //容器的高度 必选参数!!!!!!
+					direction: 'y', //滚动方向,默认X方向
+					few: 1, //一次滚动几个，默认滚动1张
+					showFew: 2, //显示几个,就不用调css了,默认显示一个
+					clearance: 10, //容器之间的间隙，默认为 0
+					silderMode: 'linear', //滚动方式
+					timeGap: 650, //动画间隙，完成一次动画需要多长时间，默认700ms
+					auto: true, //是否自动滚动 
+					autoTime: 5, //自动滚动时，时间间隙，即多长滚动一次
+					buttonPre: '.silder-button.btl', //上一个，按钮
+					buttonNext: '.silder-button.btr', //下一个，按钮
+					jz: true //点击时，是否等待动画完成
+				});
+
+				$('.silder-box-3').mySilder({
+					width: 400, //容器的宽度 必选参数!!!!!!
+					height: 400, //容器的高度 必选参数!!!!!!
+					direction: 'x', //滚动方向,默认X方向
+					few: 1, //一次滚动几个，默认滚动1张
+					showFew: 2, //显示几个,就不用调css了,默认显示一个
+					clearance: 10, //容器之间的间隙，默认为 0
+					silderMode: 'easeInBack', //滚动方式
+					timeGap: 650, //动画间隙，完成一次动画需要多长时间，默认700ms
+					auto: true, //是否自动滚动 
+					autoTime: 5, //自动滚动时，时间间隙，即多长滚动一次
+					buttonPre: '.silder-button.btl', //上一个，按钮
+					buttonNext: '.silder-button.btr', //下一个，按钮
+					jz: true //点击时，是否等待动画完成
+				});
+
+				/*------------------
+				------------------滚动方式
+				linear swing jswing 
+				easeInQuad  easeOutQuad  easeInOutQuad 
+				easeInCubic  easeOutCubic  easeInOutCubic 
+				easeInQuart  easeOutQuart  easeInOutQuart  
+				easeInQuint  easeOutQuint  easeInOutQuint 
+				easeInSine  easeOutSine   easeInOutSine 
+				easeInExpo  easeOutExpo  easeInOutExpo 
+				easeInCirc  easeOutCirc  easeInOutCirc 
+				easeInElastic  easeOutElastic  easeInOutElastic  
+				easeInBack  easeOutBack  easeInOutBack 
+				easeInBounce  easeOutBounce  easeInOutBounce
+				------------------
+				-----------------*/
+
+			});
+		</script>
+	</body>
+
+</html>
