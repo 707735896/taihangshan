@@ -285,10 +285,15 @@ ul {
 
 .r-phone {
 	position: absolute;
-	top: 35px;
+	top: 43px;
 	color: #fff;
-	right: 50px;
+	right: 45px;
 	display: none;
+	background: rgba(0,0,0,0.3);
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
 }
 
 .btn-s {
