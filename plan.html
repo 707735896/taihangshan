@@ -7,25 +7,26 @@
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/plan.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
 	</head>
 
 	<body style="min-width: 1200px;">
 		<div class="top">
 			<div class="top-content">
+				<i class="iconfont icon-dianhua"></i>
 				<span class="welcome">您好，欢迎光临太行山写生基地</span>
 				<span class="phone">13466599810/15810437940</span>
 			</div>
-			<!--<div style="position: absolute;width: 40px;height: 40px;">
-				<div style="width: 40px;height: 40px;position: absolute;top: 200px;right: 20px;">
-					<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_03.png" /></div>
-					<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_06.png" />
-						<span style="position: relative;bottom: 40px;color: #fff;right: 112px;">18550510709</span>
+			<div class="r-main">
+				<div class="r-content">
+					<div class="right-info icon-color"><i class="iconfont icon-2"></i></div>
+					<div class="right-info icon-color tel"><i class="iconfont icon-0086 icon-s"></i>
+						<div class="r-phone">18550510709</div>
 					</div>
-					<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_08.png" /></li>
-						<div style="background-color: #808080;width: 50px;height: 50px;border-radius: 50%;margin-bottom: 5px;"><img src="images/名家作品_10.png" /></div>
-					</div>
+					<div class="right-info icon-color"><i class="iconfont icon-erweima icon-s"></i></div>
 				</div>
-			</div>-->
+				<div class="right-info icon-color btn-s"><i class="iconfont icon-shang icon-s"></i></div>
+			</div>
 		</div>
 		<div class="top-img">
 			<img src="images/首页_02.gif" width="100%" />
@@ -36,25 +37,25 @@
 				<div class="nav">
 					<ul>
 						<li>
-							<a href="index.html"><img src="images/名家作品_13.png" width="30" height="30" style="float: left;margin-right: 5px;" />首页</a>
+							<a href="index.html"><i class="iconfont icon-shouyeshouye"></i>首页</a>
 						</li>
 						<li>
-							<a href="about-us.html"><img src="images/名家作品_15.png" width="30" height="30" style="float: left;margin-right: 5px;" />关于我们</a>
+							<a href="about-us.html"><i class="iconfont icon-moban"></i>关于我们</a>
 						</li>
 						<li>
-							<a href="plan.html" style="color: #FE9B00;"><img src="images/名家作品_17.png" width="30" height="30" style="float: left;margin-right: 5px;" />写生计划</a>
+							<a href="plan.html" style="color: #FE9B00;"><i class="iconfont icon-jihua"></i>写生计划</a>
 						</li>
 						<li>
-							<a href="ss.html"><img src="images/名家作品_19.png" width="30" height="30" style="float: left;margin-right: 5px;" />食宿</a>
+							<a href="ss.html"><i class="iconfont icon-zhusu"></i>食宿</a>
 						</li>
 						<li>
-							<a href="zbfj.html"><img src="images/名家作品_21.png" width="30" height="30" style="float: left;margin-right: 5px;" />周边风景</a>
+							<a href="zbfj.html"><i class="iconfont icon-yuanjing"></i>周边风景</a>
 						</li>
 						<li>
-							<a href="ysmj.html"><img src="images/名家作品_23.png" width="30" height="30" style="float: left;margin-right: 5px;" />艺术名家</a>
+							<a href="ysmj.html"><i class="iconfont icon-wode"></i>艺术名家</a>
 						</li>
 						<li>
-							<a href="contact-us.html"><img src="images/名家作品_25.png" width="30" height="30" style="float: left;margin-right: 5px;" />联系我们</a>
+							<a href="contact-us.html"><i class="iconfont icon-kefu"></i>联系我们</a>
 						</li>
 					</ul>
 				</div>
@@ -166,22 +167,14 @@
 					jz: true //点击时，是否等待动画完成
 				});
 
-				/*------------------
-				------------------滚动方式
-				linear swing jswing 
-				easeInQuad  easeOutQuad  easeInOutQuad 
-				easeInCubic  easeOutCubic  easeInOutCubic 
-				easeInQuart  easeOutQuart  easeInOutQuart  
-				easeInQuint  easeOutQuint  easeInOutQuint 
-				easeInSine  easeOutSine   easeInOutSine 
-				easeInExpo  easeOutExpo  easeInOutExpo 
-				easeInCirc  easeOutCirc  easeInOutCirc 
-				easeInElastic  easeOutElastic  easeInOutElastic  
-				easeInBack  easeOutBack  easeInOutBack 
-				easeInBounce  easeOutBounce  easeInOutBounce
-				------------------
-				-----------------*/
-
+			});
+			$(".tel").mouseover(function() {
+				$(".r-phone").show();
+			}).mouseout(function() {
+				$(".r-phone").hide();
+			});
+			$(".btn-s").click(function() {
+				$(".r-content").fadeToggle();
 			});
 		</script>
 	</body>
