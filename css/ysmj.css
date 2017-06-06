@@ -45,6 +45,11 @@
 	height: 100px;
 }
 
+.mj-name a {
+	text-decoration: none;
+	color: #000000;
+}
+
 .mj-name p {
 	padding: 5px;
 }

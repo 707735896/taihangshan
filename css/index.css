@@ -112,7 +112,7 @@ ul {
 
 .about-us {
 	width: 100%;
-	height: 450px;
+	height: 490px;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.2);
 }
@@ -138,7 +138,7 @@ ul {
 .about-us>p {
 	font-size: 26px;
 	text-align: center;
-	padding: 20px;
+	padding: 8px;
 }
 
 .index-img-bottom {
@@ -153,11 +153,11 @@ ul {
 
 .scenery {
 	width: 100%;
-	height: 400px;
+	height: 310px;
 	margin: 0 auto;
 	background-color: #000000;
 	background-color: rgba(0, 0, 0, 0.2);
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 .scenery-wrap {
@@ -168,39 +168,38 @@ ul {
 	color: #FFFFFF;
 	background-color: #FE9B00;
 	width: 220px;
-	height: 280px;
+	height: 222px;
 	float: left;
 	margin-right: 10px;
 }
 
 .scenery-con img {
 	width: 220px;
-	height: 200px;
+	height: 170px;
 }
 
 .scenery-con p {
-	margin-top: 10px
+	/*margin-top: 3px*/
 }
 
 .scenery>p {
 	font-size: 26px;
 	text-align: center;
-	padding: 20px;
+	padding: 8px;
 }
 
 .environment {
 	width: 100%;
-	height: 820px;
+	height: 700px;
 	margin: 0 auto;
 	background-color: #000000;
 	background-color: rgba(0, 0, 0, 0.2);
-	margin-bottom: 25px;
 }
 
 .environment>p {
 	font-size: 26px;
 	text-align: center;
-	padding: 20px;
+	padding: 8px;
 }
 
 .environment-div {
@@ -217,7 +216,7 @@ ul {
 }
 
 .environment-wrap ul {
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 .environment-wrap ul li {
@@ -227,7 +226,7 @@ ul {
 
 .environment-wrap ul li>img {
 	width: 220px;
-	height: 200px;
+	height: 170px;
 	margin-bottom: 20px;
 }
 
