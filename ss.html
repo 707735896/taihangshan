@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>食宿</title>
+		<!--<link rel="stylesheet" href="css/bootstrap.min.css" />-->
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/ss.css" />
 	</head>
@@ -126,6 +127,15 @@
 							</div>
 						</div>
 					</div>
+					<div style="height: 35px">
+						<ul class="pagination" id="pagination">
+						</ul>
+						<input type="hidden" id="PageCount" runat="server" />
+						<input type="hidden" id="PageSize" runat="server" value="8" />
+						<input type="hidden" id="countindex" runat="server" value="10" />
+						<!--设置最多显示的页码数 可以手动设置 默认为7-->
+						<input type="hidden" id="visiblePages" runat="server" value="2" />
+					</div>
 				</div>
 			</div>
 
@@ -140,6 +150,14 @@
 				</p>
 			</div>
 		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jqPaginator.min.js"></script>
+		<script type="text/javascript" src="js/myPage.js"></script>
+		<script>
+			function loadData(num) {
+				$("#PageCount").val("12");
+			}
+		</script>
 	</body>
 
 </html>

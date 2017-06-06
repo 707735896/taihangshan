@@ -75,3 +75,58 @@
 	width: 218px;
 	height: 180px;
 }
+
+.d3 {
+	width: 220px;
+	float: right;
+	margin-right: 38px;
+	background-color: rgba(249, 240, 218, 0.2)
+}
+
+.d3 input,
+.d3 button {
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+.d3 input {
+	width: 220px;
+	height: 35px;
+	padding-left: 15px;
+}
+
+.d3 button {
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	top: 150px;
+	right: 264px;
+	cursor: pointer;
+}
+
+.d3 button:before {
+	content: "\f002";
+	font-family: FontAwesome;
+	font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #000;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #000;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #000;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #000;
+}
