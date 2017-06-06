@@ -91,17 +91,17 @@
 }
 
 .d3 input {
-	width: 220px;
-	height: 35px;
+	width: 165px;
+	height: 32px;
 	padding-left: 15px;
 }
 
 .d3 button {
-	height: 42px;
-	width: 42px;
-	position: absolute;
+	height: 32px;
+	width: 32px;
+	/*position: absolute;
 	top: 150px;
-	right: 264px;
+	right: 313px;*/
 	cursor: pointer;
 }
 
