@@ -11,7 +11,7 @@ ul {
 
 .top {
 	width: 100%;
-	min-width: 960px;
+	min-width: 950px;
 	height: 45px;
 	line-height: 45px;
 	background-color: #282828;
@@ -19,7 +19,7 @@ ul {
 }
 
 .top-content {
-	width: 960px;
+	width: 950px;
 	margin: 0 auto;
 	height: 45px;
 }
@@ -40,7 +40,7 @@ ul {
 .index-img-one,
 .index-img-two,
 .index-img-three {
-	min-width: 960px;
+	min-width: 950px;
 }
 
 .top-img img,
@@ -57,23 +57,23 @@ ul {
 
 .one-content {
 	position: absolute;
-	left: 17%;
+	left: 20%;
 	top: 0;
-	width: 960px;
+	width: 950px;
 }
 
 .three-content {
 	position: absolute;
-	left: 17%;
+	left: 20%;
 	top: 0;
 	padding-top: 18px;
-	width: 960px;
+	width: 950px;
 }
 
 .nav {
 	margin: 0 auto;
 	padding: 20px;
-	width: 960px;
+	width: 950px;
 	height: 35px;
 }
 
@@ -236,7 +236,7 @@ ul {
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-width: 960px;
+	min-width: 950px;
 }
 
 .bottom>p {
