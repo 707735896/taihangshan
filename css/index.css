@@ -121,12 +121,12 @@ ul {
 	float: left;
 	width: 300px;
 	height: 300px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .about-wz {
 	text-align: center;
-	margin: 10px 0 20px 0;
+	margin: 20px 0 30px 0;
 }
 
 .about-jj {
@@ -289,7 +289,7 @@ ul {
 	color: #fff;
 	right: 45px;
 	display: none;
-	background: rgba(0,0,0,0.3);
+	background: rgba(0, 0, 0, 0.3);
 	width: 220px;
 	height: 30px;
 	line-height: 30px;
@@ -303,5 +303,17 @@ ul {
 }
 
 .btn-s:hover {
+	background-color: #FE9B00;
+}
+
+.ic-backg {
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+.ic-backg:hover {
 	background-color: #FE9B00;
 }
