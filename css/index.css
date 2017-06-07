@@ -11,7 +11,7 @@ ul {
 
 .top {
 	width: 100%;
-	min-width: 950px;
+	min-width: 960px;
 	height: 45px;
 	line-height: 45px;
 	background-color: #282828;
@@ -19,7 +19,7 @@ ul {
 }
 
 .top-content {
-	width: 950px;
+	width: 960px;
 	margin: 0 auto;
 	height: 45px;
 }
@@ -40,7 +40,7 @@ ul {
 .index-img-one,
 .index-img-two,
 .index-img-three {
-	min-width: 950px;
+	min-width: 960px;
 }
 
 .top-img img,
@@ -57,23 +57,21 @@ ul {
 
 .one-content {
 	position: absolute;
-	left: 20%;
 	top: 0;
-	width: 950px;
+	width: 100%;
 }
 
 .three-content {
 	position: absolute;
-	left: 20%;
 	top: 0;
 	padding-top: 18px;
-	width: 950px;
+	width: 100%;
 }
 
 .nav {
 	margin: 0 auto;
 	padding: 20px;
-	width: 950px;
+	width: 960px;
 	height: 35px;
 }
 
@@ -111,7 +109,7 @@ ul {
 }
 
 .about-us {
-	width: 100%;
+	width: 960px;
 	height: 490px;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -152,7 +150,7 @@ ul {
 }
 
 .scenery {
-	width: 100%;
+	width: 960px;
 	height: 310px;
 	margin: 0 auto;
 	background-color: #000000;
@@ -189,7 +187,7 @@ ul {
 }
 
 .environment {
-	width: 100%;
+	width: 960px;
 	height: 700px;
 	margin: 0 auto;
 	background-color: #000000;
@@ -236,7 +234,7 @@ ul {
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-width: 950px;
+	min-width: 960px;
 }
 
 .bottom>p {
